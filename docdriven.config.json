@@ -8,7 +8,7 @@
             "frameworkVersion": "7",
             "example": "examples/rails/config/routes.rb",
             "outputDirectory": "output/rails/config",
-            "openApiType": "Path"
+            "target": "Path"
         },
         {
             "name": "Rails Controller",
@@ -18,7 +18,7 @@
             "frameworkVersion": "7",
             "example": "examples/rails/app/controllers/articles_controller.rb",
             "outputDirectory": "output/rails/app/controllers",
-            "openApiType": "Path"
+            "target": "Path"
         },
         {
             "name": "Rails Migration",
@@ -28,7 +28,7 @@
             "frameworkVersion": "7",
             "example": "examples/rails/db/migrate/20231218121112_create_articles.rb",
             "outputDirectory": "output/rails/db/migrate",
-            "openApiType": "Schema"
+            "target": "Schema"
         },
         {
             "name": "Rails ActiveRecord Model",
@@ -38,7 +38,7 @@
             "frameworkVersion": "7",
             "example": "examples/rails/app/models/article.rb",
             "outputDirectory": "output/rails/app/models",
-            "openApiType": "Schema"
+            "target": "Schema"
         },
         {
             "name": "Rails Model Serializer",
@@ -48,7 +48,7 @@
             "frameworkVersion": "7",
             "example": "examples/rails/app/serializers/article_serializer.rb",
             "outputDirectory": "output/rails/app/serializers",
-            "openApiType": "Schema"
+            "target": "Schema"
         },
         {
             "name": "Rails Test",
@@ -58,7 +58,7 @@
             "frameworkVersion": "7",
             "example": "examples/rails/test/article_test.rb",
             "outputDirectory": "output/rails/test",
-            "openApiType": "Path"
+            "target": "Path"
         }
     ]
 }
