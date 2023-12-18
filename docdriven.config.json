@@ -1,62 +1,64 @@
-[
-    {
-        "name": "Rails Routes",
-        "language": "Ruby",
-        "languageVersion": "2.5",
-        "framework": "Ruby on Rails",
-        "frameworkVersion": "7",
-        "example": "examples/rails/config/routes.rb",
-        "outputDirectory": "output/rails/config",
-        "openApiType": "Path"
-    },
-    {
-        "name": "Rails Controller",
-        "language": "Ruby",
-        "languageVersion": "2.5",
-        "framework": "Ruby on Rails",
-        "frameworkVersion": "7",
-        "example": "examples/rails/app/controllers/articles_controller.rb",
-        "outputDirectory": "output/rails/app/controllers",
-        "openApiType": "Path"
-    },
-    {
-        "name": "Rails Migration",
-        "language": "Ruby",
-        "languageVersion": "2.5",
-        "framework": "Ruby on Rails",
-        "frameworkVersion": "7",
-        "example": "examples/rails/db/migrate/20231218121112_create_articles.rb",
-        "outputDirectory": "output/rails/db/migrate",
-        "openApiType": "Schema"
-    },
-    {
-        "name": "Rails ActiveRecord Model",
-        "language": "Ruby",
-        "languageVersion": "2.5",
-        "framework": "Ruby on Rails",
-        "frameworkVersion": "7",
-        "example": "examples/rails/app/models/article.rb",
-        "outputDirectory": "output/rails/app/models",
-        "openApiType": "Schema"
-    },
-    {
-        "name": "Rails Model Serializer",
-        "language": "Ruby",
-        "languageVersion": "2.5",
-        "framework": "Ruby on Rails",
-        "frameworkVersion": "7",
-        "example": "examples/rails/app/serializers/article_serializer.rb",
-        "outputDirectory": "output/rails/app/serializers",
-        "openApiType": "Schema"
-    },
-    {
-        "name": "Rails Test",
-        "language": "Ruby",
-        "languageVersion": "2.5",
-        "framework": "Ruby on Rails",
-        "frameworkVersion": "7",
-        "example": "examples/rails/test/article_test.rb",
-        "outputDirectory": "output/rails/test",
-        "openApiType": "Path"
-    }
-]
+{
+    "templates": [
+        {
+            "name": "Rails Routes",
+            "language": "Ruby",
+            "languageVersion": "2.5",
+            "framework": "Ruby on Rails",
+            "frameworkVersion": "7",
+            "example": "examples/rails/config/routes.rb",
+            "outputDirectory": "output/rails/config",
+            "openApiType": "Path"
+        },
+        {
+            "name": "Rails Controller",
+            "language": "Ruby",
+            "languageVersion": "2.5",
+            "framework": "Ruby on Rails",
+            "frameworkVersion": "7",
+            "example": "examples/rails/app/controllers/articles_controller.rb",
+            "outputDirectory": "output/rails/app/controllers",
+            "openApiType": "Path"
+        },
+        {
+            "name": "Rails Migration",
+            "language": "Ruby",
+            "languageVersion": "2.5",
+            "framework": "Ruby on Rails",
+            "frameworkVersion": "7",
+            "example": "examples/rails/db/migrate/20231218121112_create_articles.rb",
+            "outputDirectory": "output/rails/db/migrate",
+            "openApiType": "Schema"
+        },
+        {
+            "name": "Rails ActiveRecord Model",
+            "language": "Ruby",
+            "languageVersion": "2.5",
+            "framework": "Ruby on Rails",
+            "frameworkVersion": "7",
+            "example": "examples/rails/app/models/article.rb",
+            "outputDirectory": "output/rails/app/models",
+            "openApiType": "Schema"
+        },
+        {
+            "name": "Rails Model Serializer",
+            "language": "Ruby",
+            "languageVersion": "2.5",
+            "framework": "Ruby on Rails",
+            "frameworkVersion": "7",
+            "example": "examples/rails/app/serializers/article_serializer.rb",
+            "outputDirectory": "output/rails/app/serializers",
+            "openApiType": "Schema"
+        },
+        {
+            "name": "Rails Test",
+            "language": "Ruby",
+            "languageVersion": "2.5",
+            "framework": "Ruby on Rails",
+            "frameworkVersion": "7",
+            "example": "examples/rails/test/article_test.rb",
+            "outputDirectory": "output/rails/test",
+            "openApiType": "Path"
+        }
+    ]
+}
