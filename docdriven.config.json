@@ -55,7 +55,7 @@
         "languageVersion": "2.5",
         "framework": "Ruby on Rails",
         "frameworkVersion": "7",
-        "example": "examples/rails/test/article_serializer.rb",
+        "example": "examples/rails/test/article_test.rb",
         "outputDirectory": "output/rails/test",
         "openApiType": "Path"
     }
